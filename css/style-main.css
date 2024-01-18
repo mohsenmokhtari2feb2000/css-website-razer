@@ -1,0 +1,146 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(36, 36, 36);
+    position: relative;
+    
+}
+header{
+    width: 98vw;
+    height: 5rem;
+    background-color: rgb(50, 50, 50);
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.103) 10px 10px;
+}
+.pic {
+    height: 80vh;
+    width: 90vw;
+    border-radius: 10px;
+
+}
+
+.header-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.lists {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    width: 15rem;
+    height: 3rem;
+    background-color: rgb(68, 214, 45);
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.103) 10px 10px;
+    color: rgb(32, 32, 32);
+    font-weight: bold;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box {
+    display: flex;
+    height: 30rem;
+    width: 23rem;
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.103) 10px 10px;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+.img-in{
+    display: inline-block;
+    height: 20rem;
+    width: 20rem;
+}
+.para {
+    display: inline-block;
+    height: 5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.more-button{
+    display: inline-block;
+    text-decoration: none;
+    height: 2.6rem;
+    width: 8.3rem;
+    background-color: rgb(68, 214, 45);
+    border-radius: 10px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgb(102, 102, 102);
+    padding: 5px;
+    
+}
+.footer {
+    height: 3rem;
+    width: 99vw;
+    background-color: rgb(113, 113, 113);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.footer-links{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(172, 172, 172);
+    font-size: 1.5rem;
+}
+.main-section{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.box:hover {
+    background-color: rgb(169, 169, 169);
+}
+.lists:hover {
+    color: white;
+}
+.footer-links:hover{
+    color: white;
+}
+@media screen and (max-width:425px) {
+    .header-links{
+        flex-wrap: wrap;
+    }
+    header{
+        height: 16rem;
+    }
+    .main-section{
+        flex-wrap: wrap;
+    }
+    .pic{
+        display: none;
+    }
+
+    
+}
+@media screen and (max-width:768px) {
+    .header-links{
+        flex-wrap: wrap;
+    }
+    header{
+        height: 16rem;
+    }
+    .main-section{
+        flex-wrap: wrap;
+    }  
+    .box{
+        margin: 10px;
+    }
+}
