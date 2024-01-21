@@ -107,6 +107,7 @@ main{
 }
 .box:hover {
     background-color: rgb(169, 169, 169);
+    transition: .3s ease-in-out;
 }
 .lists:hover {
     color: white;

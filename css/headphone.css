@@ -1,0 +1,153 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(36, 36, 36);
+    position: relative;
+    
+}
+header{
+    width: 98vw;
+    height: 9rem;
+    background-color: rgb(50, 50, 50);
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.103) 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: -1px;
+    z-index: 1;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.img-1{
+    display: inline-block;
+    height: 6.3rem;
+    width: 7rem;
+}
+.img-1:hover{
+    width: 8rem;
+    height: 7rem;
+    transition: .2s ease-in-out;
+}
+
+.link-1{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    width: 15rem;
+    height: 3rem;
+    background-color: rgba(10,136,28,255);
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.103) 10px 10px;
+    color: rgb(32, 32, 32);
+    font-weight: bold;
+}
+.img-2{
+    display: inline-block;
+    height:4.5rem ;
+    width: 4.5rem;
+}
+.img-2:hover{
+    height:6rem ;
+    width: 6rem;
+    transition: .2s ease-in-out;
+}
+.card {
+    width: 41vw;
+    height: 50vh;
+    background-color: grey;
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: rgba(0, 0, 0, 0.103) 10px 10px;
+    position: relative;
+}
+.card:hover{
+    background-color: rgb(169, 169, 169);
+    height: 71vh;
+    width: 44vw;
+    transition: .5s ease-in-out;
+    .buy-icon{
+        visibility: visible;
+    }
+    .price{
+        visibility: visible;
+    }
+    .card-img{
+        box-shadow:rgb(68, 214, 45) 10px 10px ;
+        border-radius: 30%;
+    }
+    .para1{
+        visibility: visible;
+    }
+}
+h2{
+    margin: 10px;
+    
+}
+.buy-icon{
+    display: inline-block;
+    text-decoration: none;
+    height: 4rem;
+    width: 8.3rem;
+    background-color: rgb(68, 214, 45);
+    border-radius: 10px;
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgb(102, 102, 102);
+    padding-left: 25px;
+    padding-top: 13px;
+    justify-content: center;
+    position: absolute;
+    left: 40px;
+    bottom: 50px;
+    visibility: hidden;
+    
+}
+.info {
+    position: absolute;
+    right: 12px;
+    top: 60px;
+}
+.price {
+    position: absolute;
+    right: 80px;
+    bottom: 70px;
+    font-size: 2rem;
+    color: orangered;
+    visibility: hidden;
+}
+footer {
+    height: 3rem;
+    width: 99vw;
+    background-color: rgb(113, 113, 113);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.footer-links{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(172, 172, 172);
+    font-size: 1.5rem;
+}
+.para1{
+    width: 10rem;
+    height: 10rem;
+    font-weight: 500;
+    position: absolute;
+    right: 60px;
+    top: 170px;
+visibility: hidden;
+}
+
+
