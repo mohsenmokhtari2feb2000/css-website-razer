@@ -128,6 +128,24 @@ span{
         transition: .3s ease-in-out;
     }
 }
+.footer {
+    height: 3rem;
+    width: 99vw;
+    background-color: rgb(113, 113, 113);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+.footer-links{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(172, 172, 172);
+    font-size: 1.5rem;
+}
+.footer-links:hover{
+    color: white;
+}
 
 @media screen and (max-width:425px) {
     .header{
