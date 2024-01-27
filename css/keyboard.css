@@ -1,0 +1,158 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(36, 36, 36);
+    position: relative;
+    
+}
+header{
+    width: 98vw;
+    height: 6rem;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px 10px 6px 6px;
+    margin: 10px;
+    border-bottom: solid green 3px;
+    /* box-shadow: rgba(0, 0, 0, 0.103) 10px 10px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top: -1px;
+    z-index: 1;
+}
+.link-header{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.link-header:hover{
+    color: rgb(190, 188, 188);
+}
+.card{
+
+}
+.pic-1 {
+    display: flex;
+    margin: 20px;
+}
+.pic-1 img {
+    width: 99%;
+    border-radius: 10px;
+}
+
+.nav{
+    height: 12rem;
+    background-color: black;
+    margin: 10px;
+    border-radius: 10px;
+    width: 70%;
+    justify-content: center;
+    position: relative;
+    left: 13%;
+    display: flex;
+    
+}
+.slider{
+    margin: 15px;
+    border-radius: 10px;
+}
+.img2{
+    display: none;
+}
+.img3{
+    display: none;
+}
+.img-a{
+    border: solid rgb(68, 214, 45) 3px;
+}
+.img-b:active {
+    border: solid rgb(68, 214, 45) 3px ;
+    
+}
+.img-c:active {
+    border: solid rgb(68, 214, 45) 3px ;
+}
+.main-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    background-color: rgb(79, 79, 79);
+    width: 27rem;
+    height: 35rem;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-img{
+    height: 20rem;
+    width: 20rem;
+}
+.card-title{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+.info{
+    font-size: 1.3rem;
+    margin-left: 35px;
+
+}
+.button{
+    background-color: orangered;
+    text-decoration: none;
+    width: 90px;
+    height: 45px;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    border-radius: 6px;
+}
+span{
+    color: rgb(0, 255, 0);
+}
+.card:hover{
+    background-color: rgb(106, 0, 255);
+    box-shadow: rgba(0, 0, 0, 0.464) 13px 13px;
+    .card-img{
+        width:21rem ;
+        height:21rem ;
+        transition: .3s ease-in-out;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .header{
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .nav{
+        display: none;
+    }
+    .slider{
+        display: none;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:768px) {
+    .nav{
+        display: none;
+    }
+    .slider{
+        display: none;
+    }
+    .img2, .img3{
+        display: inline-block;
+    }
